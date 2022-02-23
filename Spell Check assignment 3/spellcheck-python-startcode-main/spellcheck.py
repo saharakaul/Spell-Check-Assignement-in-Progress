@@ -62,7 +62,7 @@ def main():
             wordsNotFound = 0
             for i in range(len(aliceWords)):
                 if aliceWords[i] not in dictionary:
-                    wordsNotFound + 1
+                    wordsNotFound += 1
             print(wordsNotFound)
         elif Number ==4:
             wordsNotFound = 0
